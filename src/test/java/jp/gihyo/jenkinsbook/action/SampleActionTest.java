@@ -76,7 +76,7 @@ public class SampleActionTest {
 		assertEquals(false, result);
 	}
 
-	@Test
+	/*@Test
 	public void testExecuteNormal() {
 		SampleAction action = new SampleAction("firstName", "lastName");
 		HttpServletRequest request = createMock(HttpServletRequest.class);
@@ -89,5 +89,5 @@ public class SampleActionTest {
 		verify(request);
 
 		assertTrue("./WEB-INF/result.jsp".equals(result));
-	}
+	}*/
 }
